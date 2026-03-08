@@ -23,7 +23,7 @@ class expressdelivery : public smartdeliveryservice{
 		string priority_level;
 		using smartdeliveryservice::displayinfo;
 		
-	void displayinfo(int id,double cost,string name,string priority){
+	void displayinfo(int id,double cost,string name,string priority_level){
 	
 		
 		cout<<"Express Delivery Information"<<endl;
@@ -43,3 +43,4 @@ int main()
 	e1.displayinfo(202,1500.75,"SANA","HIGH");
 
 }
+
