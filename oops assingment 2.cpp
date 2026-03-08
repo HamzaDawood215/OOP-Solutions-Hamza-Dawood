@@ -14,6 +14,9 @@ class smartdeliveryservice
 			cout<<"ID : "<<id<<endl;
 			cout<<"Cost : "<<cost<<endl;
 			cout<<"customer : "<<name<<endl;
+
+			cout<<"----------------------------"<<endl;
+			cout<<"----------------------------"<<endl;
 			
 		}
 };
@@ -43,4 +46,5 @@ int main()
 	e1.displayinfo(202,1500.75,"SANA","HIGH");
 
 }
+
 
